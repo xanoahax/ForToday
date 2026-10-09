@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>ForToday</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="titlebar"><span class="brand"><span class="brand-mark">f.</span>fortoday</span><div class="window-actions"><button id="minimize" aria-label="Minimieren" title="Minimieren">−</button><button id="close" aria-label="Fenster schließen" title="Schließen">×</button></div></header>
+  <main id="app" aria-label="ForToday"><p class="loading">Listen werden geladen …</p></main>
+  <div id="toast" role="status" aria-live="polite" hidden></div>
+  <dialog id="sheet" aria-labelledby="sheet-title"><div id="sheet-content"></div></dialog>
+  <script src="app.js"></script>
+</body>
+</html>

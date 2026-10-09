@@ -1,0 +1,13 @@
+node_modules/
+release/
+test-results/
+.superpowers/
+*.log
+.env
+.env.*
+!.env.example
+tasks.json
+tasks.json.tmp
+settings.json
+settings.json.tmp
+backups/
